@@ -1,6 +1,6 @@
 {
 	"name": "@xdune/beta",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "",
 	"main": "index.js",
 	"author": "Sébastien d'Olbecke <sebastien.dolbecke@caracal.studio>",
