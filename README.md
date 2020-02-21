@@ -13,6 +13,19 @@
   * `beta` (`deps: []`)
   * `usage` (`deps: ["alpha", "beta"]`)
 
+## Commands
+
+```shell
+# publish your new tag and packages
+lerna publish
+
+# change just the version
+lerna version
+
+# show current repo tags
+git tag -l
+```
+
 ## Independant versioning
 
 [How Does Independent Versioning Work?](https://samhogy.co.uk/2018/08/lerna-independent-mode-with-semver.html#how-does-independent-versioning-work)
