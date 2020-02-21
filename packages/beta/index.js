@@ -1,0 +1,2 @@
+// Beta
+module.exports = 'beta'

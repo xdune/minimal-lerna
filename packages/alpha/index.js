@@ -1,0 +1,2 @@
+// alpha
+module.exports = 'alpha'

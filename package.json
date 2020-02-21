@@ -1,0 +1,21 @@
+{
+	"name": "minimal-lerna",
+	"version": "0.0.1",
+	"private": true,
+	"description": "A minimal lerna repo that works with github packages",
+	"author": "Sébastien d'Olbecke <sebastien.dolbecke@caracal.studio>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/xdune/minimal-lerna.git"
+	},
+	"license": "UNLICENSED",
+	"workspaces": ["packages/*"],
+	"scripts": {
+		"start": "npm -C ./packages/usage run start"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"lerna": "^3.18.3"
+	},
+	"peerDependencies": {}
+}
